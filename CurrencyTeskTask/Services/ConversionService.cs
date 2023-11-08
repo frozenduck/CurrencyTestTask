@@ -8,10 +8,10 @@ namespace CurrencyTestTask.Services
     {
         private static readonly Currency[] Currencies = new[]
 {
-            new Currency("euro", "Евро", 0.94m),
-            new Currency("usd", "Доллар США", 1.00m),
-            new Currency("byn", "Белорусский рубль", 3.30m),
-            new Currency("ars", "Аргентинский песо", 351.17m),
+            new Currency("euro", "Euro", 0.94m),
+            new Currency("usd", "US Dollar", 1.00m),
+            new Currency("byn", "Belarusian Ruble", 3.30m),
+            new Currency("ars", "Argentinian Peso", 351.17m),
         };
 
         public ResultDto GetConversion(SumDto input)
